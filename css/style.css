@@ -125,10 +125,9 @@ main section {
 }
 
 .btn {
-    font-size: 0.9em;
-    font-weight: bold;
+    font: normal bold 0.9em "Circular", Helvetica, Arial, sans-serif;
     margin: 20px 0;
-    padding: 17px 22px;
+    padding: 15px 30px;
     border: none;
     border-radius: 100px;
 }
@@ -141,11 +140,13 @@ main section {
 #join-container .btn {
     background-color: #000;
     color: #fff;
+    width: 270px;
 }
 
 #download-container .btn {
     background-color: #14D760;
     color: #2941AB;
+    width: 250px;
 }
 
 #download-container .btn:hover {
@@ -156,6 +157,7 @@ main section {
     font-size: 0.95em;
     font-weight: 200;
     width: 600px;
+    line-height: 10px;
 }
 
 .small a {
