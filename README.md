@@ -1,4 +1,15 @@
+<div align="center">
+   
 # Teste para vaga de Estagiário Dev Web
+
+</div>
+
+<div align="center">
+
+### **Assets:** ✔️ | **Responsividade:** ❌ | **Hover:** ✔️
+### **[Acessar Página Demo](https://kaioloureiro.github.io/b7web-estagiowebdev/)**
+
+</div>
 
 ## Questões Teóricas (Respostas)
 1. **Qual a função do "head" no HTML?**
@@ -23,7 +34,7 @@
     * O CSS Inline só poderá modificar visualmente o elemento específico no qual ele foi inserido. Já o CSS em um arquivo, além de estar separado em um arquivo à parte do código HTML, poderá modificar todos os elementos que utilizem a mesma tag de forma universal, contribuindo para a manutenção e deixando o código mais limpo.
 
 8. **Como criar animações no CSS? Dê um exemplo.**
-    * Utilizando @keyframes, como no exemplo abaixo.</br>
+    * Utilizando @keyframes, como no exemplo abaixo.<br>
        <pre><code>@keyframes examplo {
            from {background-color: red;}
            to {background-color: blue;}
