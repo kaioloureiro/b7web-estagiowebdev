@@ -23,12 +23,11 @@
     * O CSS Inline só poderá modificar visualmente o elemento específico no qual ele foi inserido. Já o CSS em um arquivo, além de estar separado em um arquivo à parte do código HTML, poderá modificar todos os elementos que utilizem a mesma tag de forma universal, contribuindo para a manutenção e deixando o código mais limpo.
 
 8. **Como criar animações no CSS? Dê um exemplo.**
-    * Utilizando @keyframes, como no exemplo abaixo.
-    `@keyframes examplo {
-        from {background-color: red;}
-        to {background-color: blue;}
-    }`
-    
+    * Utilizando @keyframes, como no exemplo abaixo.</br>
+       <pre><code>@keyframes examplo {
+           from {background-color: red;}
+           to {background-color: blue;}
+       }</code></pre>
 
 9. **Qual a diferença entre class e ID no CSS?**
     * Classes poderão ser utilizadas por mais de um elemento dentro do HTML, e um único elemento poderá ter múltiplas classes. Já o ID de um elemento é único e nenhum outro elemento poderá utilizar aquele mesmo ID, além de que os elementos só poderão possuir um ID.
